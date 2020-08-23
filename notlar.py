@@ -43,3 +43,5 @@ b
 '32324324'
 
 len(b)
+8 #stringin uzunluğunu hesaplar
+
