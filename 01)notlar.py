@@ -21,16 +21,12 @@ print(*"TBMM",sep =".")
  
 """
 Çıktı
- 
 P y t h o n
- 
 P
 y
 t
 h
 o
 n
- 
-T.B.M.M
- 
+T.B.M.M 
 """
