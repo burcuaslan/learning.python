@@ -46,3 +46,22 @@ o
 n
 T.B.M.M 
 """
+
+#SÖZLÜKLER
+yeni_sözlük = {"bir":1,"iki":2,"üç":3}
+ 
+# values() metodu sözlüğün değerlerini(value) bir liste olarak döner.
+print(yeni_sözlük.values())
+ 
+# keys() metodu sözlüğün anahtarlarını(key) bir liste olarak döner.
+print(yeni_sözlük.keys())
+ 
+# items() metodu sözlüğün anahtar ve değerlerini bir liste içinde demet olarak döner.
+print(yeni_sözlük.items())
+ 
+"""
+Çıktı
+dict_values([1, 2, 3])
+dict_keys(['bir', 'iki', 'üç'])
+dict_items([('bir', 1), ('iki', 2), ('üç', 3)])
+"""
