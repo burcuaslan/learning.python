@@ -30,3 +30,16 @@ o
 n
 T.B.M.M 
 """
+
+# sep parametresi 
+print() fonksiyonunda kullanılabilen sep parametresi yazdırdığımız değerlerin arasına istediğimiz karakterlerin yerleştirilmesini sağlar.
+Eğer bu parametreyi kullanmazsak değerlerin arasına varsayılan olarak boşluk yerleştirilir.
+
+print(3,4,5,6,7,8,9,sep = ".")
+print("06","04","2015",sep = "/")
+
+"""
+çıktı
+3.4.5.6.7.8.9
+06/04/2015
+"""
