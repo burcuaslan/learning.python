@@ -48,6 +48,27 @@ T.B.M.M
 """
 
 #SÖZLÜKLER
+
+a = {"bir" : [1,2,3,4], "iki": [[1,2],[3,4],[5,6]],"üç" : 15}
+ 
+print(a)
+print(a["iki"])
+print(a["iki"][1][1])
+print(a["üç"])
+a["üç"] += 5
+print(a["üç"])
+print(a)
+ 
+"""
+Çıktı
+[[1, 2], [3, 4], [5, 6]]
+4
+15
+20
+{'bir': [1, 2, 3, 4], 'iki': [[1, 2], [3, 4], [5, 6]], 'üç': 20}
+"""
+
+
 yeni_sözlük = {"bir":1,"iki":2,"üç":3}
  
 # values() metodu sözlüğün değerlerini(value) bir liste olarak döner.
