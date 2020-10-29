@@ -11,6 +11,22 @@
 """
 
 
+
+# SEP PARAMETRESİ
+#print() fonksiyonunda kullanılabilen sep parametresi yazdırdığımız değerlerin arasına istediğimiz karakterlerin yerleştirilmesini sağlar.
+#Eğer bu parametreyi kullanmazsak değerlerin arasına varsayılan olarak boşluk yerleştirilir.
+
+print(3,4,5,6,7,8,9,sep = ".")
+print("06","04","2015",sep = "/")
+
+"""
+çıktı
+3.4.5.6.7.8.9
+06/04/2015
+"""
+
+
+#YILDIZLI PARAMETRELER
 #Eğer bir stringin başına * işareti koyup, print fonksiyonuna gönderirsek
 #bu string karakterlerine ayrılacak ve her bir karakter ayrı birer string olarak davranılarak ekrana basılacaktır.
 
@@ -29,17 +45,4 @@ h
 o
 n
 T.B.M.M 
-"""
-
-# sep parametresi 
-print() fonksiyonunda kullanılabilen sep parametresi yazdırdığımız değerlerin arasına istediğimiz karakterlerin yerleştirilmesini sağlar.
-Eğer bu parametreyi kullanmazsak değerlerin arasına varsayılan olarak boşluk yerleştirilir.
-
-print(3,4,5,6,7,8,9,sep = ".")
-print("06","04","2015",sep = "/")
-
-"""
-çıktı
-3.4.5.6.7.8.9
-06/04/2015
 """
